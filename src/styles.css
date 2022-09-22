@@ -1,0 +1,23 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: #fdfacf;
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 20px;
+  border: 1px solid #ece588;
+  border-radius: 10px;
+}
+
+h1 {
+  color: red;
+}
+
+h2 {
+  color: orangered;
+}
+
+.weatherDisplay .displayList {
+  color: orange;
+  list-style: none;
+}
