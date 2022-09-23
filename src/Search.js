@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import WeatherDisplay from "./WeatherDisplay";
 import "./styles.css";
+import 'bootstrap/dist/css/bootstrap.css';
+
 
 export default function Search() {
   let [city, setCity] = useState("");
@@ -17,7 +19,7 @@ export default function Search() {
     <div className="searchEngine">
       <form onSubmit={handleSubmit}>
         <input type="search" placeholder="Search City" onChange={updateCity} />
-        <input type="submit" value="Search" />
+        <input type="submit" value="Search" className="btn btn-primary" />
       </form>
       <h3>
         <WeatherDisplay city={result} />

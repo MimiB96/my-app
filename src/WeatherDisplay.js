@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import axios from "axios";
 import "./styles.css";
+import 'bootstrap/dist/css/bootstrap.css';
+
 
 export default function WeatherDisplay(props) {
   let [name, setName] = useState("");
